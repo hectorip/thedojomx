@@ -20,10 +20,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 
   </head>
 
-  <body>
+  <body >
 
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
@@ -34,21 +35,21 @@
     </nav>
 
     <!-- Masthead -->
-    <header class="masthead text-white text-center">
+    <header class="masthead text-white text-center" id="vueApp">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Aprende habilidades epecíficas y avanzadas con los mejores desarrolladores de México</h1>
+            <h1 class="mb-5">Aprende habilidades avanzadas con los <span class="emphasis">mejores desarrolladores de México </span></h1>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
               <div class="form-row">
                 <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Suscríbete...">
+                  <input type="email" class="form-control form-control-lg" placeholder="Suscríbete..." v-model="email">
                 </div>
                 <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Go</button>
+                  <button type="submit" class="btn btn-block btn-lg btn-primary" >Go</button>
                 </div>
               </div>
             </form>
@@ -97,17 +98,22 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
 
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('http://odissey.imgix.net/python-django.png');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Fully Responsive Design</h2>
-            <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+            <h2>Aprende Django</h2>
+            <p class="lead mb-0">Curso de para ya iniciados en Python 2 y 3, con un poco de conocimiento sobre desarrollo web. Te llevaremos de 0 a experto en Django, conocerás los pros y contras de usarlo.</p>
+            <br>
+            <a href="/django.html">
+              <button type="button" class="btn btn-block btn-lg btn-primary" style="background-color: #224935">Me interesa</button>
+            </a>
+            
           </div>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('http://odissey.imgix.net/python-django.png');"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h2>Updated For Bootstrap 4</h2>
-            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+            <h2>Análisis de Datos</h2>
+            <p class="lead mb-0">Aprende desde las bases.</p>
           </div>
         </div>
         <div class="row no-gutters">
@@ -224,7 +230,17 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4367352.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <script>
+      var app = new Vue({
+          el: '#vueApp',
+          data: {
+            email: 'Un email'
+          }
+        })
+    </script>
   </body>
 
 </html>

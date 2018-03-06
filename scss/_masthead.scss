@@ -1,7 +1,7 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/jason-briscoe-149781-unsplash.jpg') no-repeat center center;
+  background: url('https://odissey.imgix.net/thedojo_masthead.jpg?auto=compress&w=1920') no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;

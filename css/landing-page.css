@@ -19,7 +19,7 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/jason-briscoe-149781-unsplash.jpg") no-repeat center center;
+  background: url("https://odissey.imgix.net/thedojo_masthead.jpg?auto=compress&w=1920") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

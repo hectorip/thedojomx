@@ -12,8 +12,16 @@ h6 {
   font-weight: 700;
 }
 
-.emphasis {
+.emphasis, .strong {
   font-weight: 600;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.outstanding_title {
+  font-size: 4em;
 }
 
 header.masthead {

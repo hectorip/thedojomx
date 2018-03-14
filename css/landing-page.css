@@ -24,6 +24,10 @@ a {
   font-size: 4em;
 }
 
+.emphasis_django {
+  color: #EDC244;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -58,6 +62,10 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.django {
+  background: url("https://odissey.imgix.net/serpent.jpg?auto=compress&w=1920") no-repeat center center !important;
 }
 
 .showcase .showcase-text {

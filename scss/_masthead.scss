@@ -14,6 +14,7 @@ header.masthead {
     left: 0;
     opacity: 0.3;
   }
+
   h1 {
     font-size: 2rem;
   }
@@ -24,4 +25,7 @@ header.masthead {
       font-size: 3rem;
     }
   }
+}
+.django {
+  background: url('https://odissey.imgix.net/serpent.jpg?auto=compress&w=1920') no-repeat center center !important;
 }

@@ -24,6 +24,10 @@ a {
   font-size: 4em;
 }
 
+.not_so_outstanding_title {
+  font-size: 3em;
+}
+
 .emphasis_django {
   color: #EDC244;
 }

@@ -38,7 +38,7 @@
     </nav>
 
     <!-- Masthead -->
-    <header class="masthead django text-white text-center" id="vueApp">
+    <header class="masthead django text-white text-center" id="">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
@@ -51,16 +51,23 @@
               avanzadas y con uso en proyectos reales.
             </h4>
             <br>
-            <form v-on:submit.prevent="onSubmit">
-              <div class="form-row">
+          <div id="mc_embed_signup">
+            <form action="https://hectoripm.us9.list-manage.com/subscribe/post?u=6d88bf82d8d32944bd07c63b0&amp;id=418be2b190" method="post"
+              id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll" class="form-row">
                 <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Tu correo" v-model="email">
+                  <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email" class=" form-control form-control-lg" required>
                 </div>
                 <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary" style="background-color: #EDC244; border-color: #EDC244" id="subscribeButton">Me intersa</button>
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_6d88bf82d8d32944bd07c63b0_418be2b190" tabindex="-1" value="">
+                  </div>
+                  <input type="submit" value="Me interesa" name="subscribe" id="mc-embedded-subscribe" class="btn btn-block btn-lg btn-primary"
+                    style="background-color:#EDC244; border-color:#EDC244">
                 </div>
               </div>
             </form>
+          </div>
           </div>
         </div>
       </div>
@@ -200,16 +207,22 @@
             <h2 class="mb-4">¿Listo para aprender Django en serio?</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Email...">
+            <div id="mc_embed_signup">
+              <form action="https://hectoripm.us9.list-manage.com/subscribe/post?u=6d88bf82d8d32944bd07c63b0&amp;id=418be2b190" method="post"
+                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll" class="form-row">
+                  <div class="col-12 col-md-9 mb-2 mb-md-0">
+                    <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email" class=" form-control form-control-lg" required>
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                      <input type="text" name="b_6d88bf82d8d32944bd07c63b0_418be2b190" tabindex="-1" value="">
+                    </div>
+                    <input type="submit" value="Me interesa" name="subscribe" id="mc-embedded-subscribe" class="btn btn-block btn-lg btn-primary" style="background-color:#EDC244; border-color:#EDC244">
+                  </div>
                 </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary" style="background-color:#FF0000; border-color: #FF0000">¡Registrarme!</button>
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -281,29 +294,6 @@
       };
       firebase.initializeApp(config);
       var database = firebase.database();
-    </script>
-    <script>
-      var app = new Vue({
-          el: '#vueApp',
-          data: {
-            email: '',
-          },
-          methods: {
-            onSubmit: function(event) {
-              let p_email = database.ref("/users/").push(this.$data.email);
-              p_email.then((event) => {
-                this.$toasted.success("Suscrito, ¡muchas gracias! ", {
-                  theme: "primary",
-                  position: "top-right",
-                  duration: 5000,
-                });
-                this.$data.email = "";
-                document.querySelector("#subscribeButton").disabled = true;
-              })
-            }
-          }
-        })
-       Vue.use(Toasted)      
     </script>
   </body>
 

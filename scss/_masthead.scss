@@ -27,7 +27,8 @@ header.masthead {
   }
 }
 .django {
-  background: url('https://odissey.imgix.net/computer.jpg?auto=compress&w=1920') no-repeat center center !important;
+  // background: url('https://odissey.imgix.net/pattern.png?auto=compress&w=1920') no-repeat center center !important;
+  background: #0F4B34 !important;
   @media (min-width: 768px) {
     padding-top: 8rem !important;
     padding-bottom: 8rem !important;
@@ -39,4 +40,12 @@ header.masthead {
 
 .call-to-action.django{
   background: url('https://odissey.imgix.net/code-dark.jpg?auto=compress&w=1920') no-repeat center center !important;
+}
+
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 }

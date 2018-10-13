@@ -5,7 +5,13 @@
   .showcase-img {
     min-height: 30rem;
     background-size: cover;
+    background-position: center;
+      @media (max-width: 578px) {
+       max-height: 150px !important;
+       min-height: 150px;
+      }
   }
+
   @media (min-width: 768px) {
     .showcase-text {
       padding: 7rem;

@@ -38,6 +38,17 @@ header.masthead {
   }
 }
 
+.lfgg {
+  background: #000 !important;
+  @media (min-width: 768px) {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
 .call-to-action.django{
   background: url('https://odissey.imgix.net/code-dark.jpg?auto=compress&w=1920') no-repeat center center !important;
 }

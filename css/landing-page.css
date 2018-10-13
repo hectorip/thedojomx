@@ -101,7 +101,7 @@ header.masthead h1 {
 }
 
 .call-to-action.django {
-  background: url("https://odissey.imgix.net/code-dark.jpg?auto=compress&w=1920") no-repeat center center !important;
+  background: url("https://res.cloudinary.com/hectorip/image/upload/q_49/v1539405147/taskin-ashiq-464194-unsplash_nqshka.jpg") no-repeat center center !important;
 }
 
 #particles-js {

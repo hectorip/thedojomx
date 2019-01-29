@@ -102,6 +102,7 @@ header.masthead h1 {
 
 .data-analysis {
   background: #FFF !important;
+  color: #495057 !important;
 }
 
 @media (min-width: 768px) {

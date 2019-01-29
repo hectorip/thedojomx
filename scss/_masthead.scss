@@ -49,6 +49,17 @@ header.masthead {
   }
 }
 
+.data-analysis {
+  background: #FFF !important;
+  @media (min-width: 768px) {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
 .call-to-action.django{
   background: url('https://res.cloudinary.com/hectorip/image/upload/q_49/v1539405147/taskin-ashiq-464194-unsplash_nqshka.jpg') no-repeat center center !important;
 }

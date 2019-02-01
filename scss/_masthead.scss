@@ -89,3 +89,11 @@ header.masthead {
   top: 0px;
   left: 0px;
 }
+
+.data-analysis .container {
+  .row {
+    background-color: rgba(30, 30, 30, .4) !important;
+    padding: 10px 0px;
+    color: white;
+  }
+}

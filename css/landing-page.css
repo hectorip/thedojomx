@@ -149,6 +149,12 @@ header.masthead h1 {
   left: 0px;
 }
 
+.data-analysis .container .row {
+  background-color: rgba(30, 30, 30, 0.4) !important;
+  padding: 10px 0px;
+  color: white;
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }

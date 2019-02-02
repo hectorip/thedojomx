@@ -52,6 +52,7 @@ header.masthead {
 .data-analysis {
   background: #FFF !important;
   color: $gray-700 !important;
+  color: black !important;
   @media (min-width: 768px) {
     padding-top: 8rem !important;
     padding-bottom: 8rem !important;
@@ -61,12 +62,12 @@ header.masthead {
   }
   .overlay {
     position: absolute;
-    background-color: $gray-100;
+    background-color: rgb(200, 0, 200) !important;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.01 !important;
+    opacity: 0.01  !important;
   }
 }
 
@@ -90,10 +91,10 @@ header.masthead {
   left: 0px;
 }
 
-.data-analysis .container {
-  .row {
-    background-color: rgba(200, 0, 200, .4) !important;
-    padding: 10px 0px;
-    color: white;
-  }
-}
+// .data-analysis .container {
+//   .row {
+//     background-color: rgba(200, 0, 200, .4) !important;
+//     padding: 10px 0px;
+//     color: white;
+//   }
+// }

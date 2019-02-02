@@ -103,6 +103,7 @@ header.masthead h1 {
 .data-analysis {
   background: #FFF !important;
   color: #495057 !important;
+  color: black !important;
 }
 
 @media (min-width: 768px) {
@@ -117,12 +118,12 @@ header.masthead h1 {
 
 .data-analysis .overlay {
   position: absolute;
-  background-color: #f8f9fa;
+  background-color: #c800c8 !important;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.01 !important;
+  opacity: 0.01  !important;
 }
 
 .call-to-action.django {
@@ -147,12 +148,6 @@ header.masthead h1 {
   height: 100%;
   top: 0px;
   left: 0px;
-}
-
-.data-analysis .container .row {
-  background-color: rgba(200, 0, 200, 0.4) !important;
-  padding: 10px 0px;
-  color: white;
 }
 
 .showcase .showcase-text {

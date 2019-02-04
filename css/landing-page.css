@@ -123,7 +123,7 @@ header.masthead h1 {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.01  !important;
+  opacity: 0.001  !important;
 }
 
 .call-to-action.django {

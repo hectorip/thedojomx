@@ -36,6 +36,10 @@ a {
   color: #FF2032;
 }
 
+.emphasis_data {
+  color: #2420ff;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -133,7 +137,7 @@ header.masthead h1 {
 .call-to-action.da {
   background-size: cover !important;
   background-position: center !important;
-  background: url("https://res.cloudinary.com/hectorip/image/upload/c_scale,w_1200/v1548814339/TheDojo/franki-chamaki-694946-unsplash.jpg");
+  background: url("https://res.cloudinary.com/hectorip/image/upload/c_scale,w_1200/v1548776702/TheDojo/lukas-blazek-367945-unsplash.jpg");
 }
 
 @media (min-width: 768px) {

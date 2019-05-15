@@ -43,7 +43,7 @@ a {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("https://odissey.imgix.net/thedojo_masthead.jpg?auto=compress&w=1920") no-repeat center center;
+  background: url("https://res.cloudinary.com/hectorip/image/upload/c_scale,w_1440/v1557902853/sam-moghadam-1213644-unsplash_yrr2lw.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
